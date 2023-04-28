@@ -1,0 +1,341 @@
+supportedPartners: 150,152,153,5939,20064,20072
+partners: >
+  [
+    {
+      "pid": 150,
+      "name": "IDX",
+      "restEndPoints": [
+        {
+          "request": "SIGNIN",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "IDX"
+          }
+        },
+        {
+          "request": "PAYLOAD",
+          "attributes": {
+            "SESSION_VAL_REQ": false
+          }
+        },
+        {
+          "request": "SIGNOUT",
+          "attributes": {
+            "SESSION_VAL_REQ": false
+          }
+        }
+      ]
+    },
+    {
+      "pid": 152,
+      "name": "PIANO",
+      "restEndPoints": [
+        {
+          "request": "SIGNIN",
+          "attributes": {
+            "SESSION_VAL_REQ": false
+          }
+        },
+        {
+          "request": "PAYLOAD",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "IDX"
+          }
+        },
+        {
+          "request": "SIGNOUT",
+          "attributes": {
+            "SESSION_VAL_REQ": false
+          }
+        }
+      ]
+    },
+    {
+      "pid": 153,
+      "name": "EXACT_TARGET",
+      "restEndPoints": [
+        {
+          "request": "SIGNIN",
+          "attributes": {
+            "SESSION_VAL_REQ": false
+          }
+        },
+        {
+          "request": "PAYLOAD",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "IDX"
+          }
+        },
+        {
+          "request": "SIGNOUT",
+          "attributes": {
+            "SESSION_VAL_REQ": false
+          }
+        } 
+      ]
+    },
+    {
+      "pid": 5939,
+      "name": "ROKU",
+      "restEndPoints": [
+        {
+          "request": "SIGNIN",
+          "attributes": {
+            "SESSION_VAL_REQ": false,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "REMEMBER_ME_TTL_MILLIS": 7776000,
+            "DEFAULT_TTL_MILLIS": 900,
+            "CAPTCHA_VAL_REQ": false
+          }
+        },
+        {
+          "request": "PAYLOAD",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },    
+        {
+          "request": "SIGNOUT",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },
+        {
+          "request": "SESSIONINFO",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "PLATFORM_NAME": "rokutv"
+          }
+        },
+        {
+          "request": "VALIDATEPROUSER",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },    
+       {
+          "request": "ROKUSAVETRANSACTION",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },  
+        {
+          "request": "REGISTER",
+          "attributes": {
+            "SESSION_VAL_REQ": false,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "REMEMBER_ME_TTL_MILLIS": 7776000,
+            "DEFAULT_TTL_MILLIS": 900,
+            "CAPTCHA_VAL_REQ": false
+  
+          }
+        }
+      ]
+    },
+    {
+      "pid": 20035,
+      "name": "XFINITY",
+      "restEndPoints": []
+    },
+    {
+      "pid": 20055,
+      "name": "APPLE_TV",
+      "restEndPoints": [
+        {
+          "request": "SIGNIN",
+          "attributes": {
+            "SESSION_VAL_REQ": false,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "REMEMBER_ME_TTL_MILLIS": 7776000,
+            "DEFAULT_TTL_MILLIS": 900
+          }
+        },
+        {
+          "request": "PAYLOAD",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },
+        {
+          "request": "SESSIONINFO",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "PLATFORM_NAME": "appletv"
+          }
+        },
+        {
+          "request": "REGISTER",
+          "attributes": {
+            "SESSION_VAL_REQ": false,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "REMEMBER_ME_TTL_MILLIS": 7776000,
+            "DEFAULT_TTL_MILLIS": 900
+          }
+        },
+        {
+          "request": "SUBMITRECEIPT",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },
+        {
+          "request": "GETRECEIPTSTATUS",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },
+        {
+          "request": "VALIDATEPROUSER",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        }
+      ]
+    },
+    {
+      "pid": 20064,
+      "name": "IOS",
+      "restEndPoints": [
+        {
+          "request": "SIGNIN",
+          "attributes": {
+            "SESSION_VAL_REQ": false,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "REMEMBER_ME_TTL_MILLIS": 7776000,
+            "DEFAULT_TTL_MILLIS": 900,
+            "CAPTCHA_VAL_REQ": false
+          }
+        },
+        {
+          "request": "PAYLOAD",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },    
+        {
+          "request": "SIGNOUT",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },
+        {
+          "request": "SESSIONINFO",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "PLATFORM_NAME": "IOS"
+          }
+        },
+        {
+          "request": "REGISTER",
+          "attributes": {
+            "SESSION_VAL_REQ": false,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "REMEMBER_ME_TTL_MILLIS": 7776000,
+            "DEFAULT_TTL_MILLIS": 900,
+            "CAPTCHA_VAL_REQ": false
+  
+          }
+        },
+        {
+          "request": "SUBMITRECEIPT",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },
+        {
+          "request": "GETRECEIPTSTATUS",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        }
+      ]
+    },
+    {
+      "pid": 20072,
+      "name": "ANDROID",
+      "authServiceName": "IDX",
+      "restEndPoints": [
+        {
+          "request": "SIGNIN",
+          "attributes": {
+            "SESSION_VAL_REQ": false,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "REMEMBER_ME_TTL_MILLIS": 7776000,
+            "DEFAULT_TTL_MILLIS": 900,
+            "CAPTCHA_VAL_REQ": false
+          }
+        },
+        {
+          "request": "PAYLOAD",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },    
+        {
+          "request": "SIGNOUT",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },
+        {
+          "request": "SESSIONINFO",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "PLATFORM_NAME": "android"
+          }
+        },
+        {
+          "request": "REGISTER",
+          "attributes": {
+            "SESSION_VAL_REQ": false,
+            "SESSION_FACTORY": "AUTH_SESSION",
+            "REMEMBER_ME_TTL_MILLIS": 7776000,
+            "DEFAULT_TTL_MILLIS": 900,
+            "CAPTCHA_VAL_REQ": false
+  
+          }
+        },
+       {
+          "request": "GOOGLESAVETRANSACTION",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },  
+        {
+          "request": "VALIDATEPROUSER",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        },
+        {
+          "request": "SUBMITRECEIPT",
+          "attributes": {
+            "SESSION_VAL_REQ": true,
+            "SESSION_FACTORY": "AUTH_SESSION"
+          }
+        }
+      ]
+    }
+  ]

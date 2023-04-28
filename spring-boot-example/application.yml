@@ -1,3 +1,6 @@
-a:
-  b:
-    c: this is the value of a.b.c
+springdoc:
+  api-docs:
+    path: /api-docs
+spring:
+  application:
+    name: spring-boot-example
