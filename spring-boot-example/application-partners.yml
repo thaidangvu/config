@@ -1,4 +1,5 @@
 supportedPartners: 150,152,153,5939
+partners: >
   [
     {
       "pid": 150,
