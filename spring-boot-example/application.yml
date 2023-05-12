@@ -3,4 +3,4 @@ springdoc:
     path: /api-docs
 spring:
   application:
-    name: spring-boot-example
+    name: spring-boot-exampleß

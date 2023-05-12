@@ -1,0 +1,12 @@
+filterA:
+  uriPattern: "/v3/endpoint1"
+
+
+cors:
+  allowed:
+    method: GET, POST, OPTIONS
+    headers: Content-Type, Content-Range, Content-Disposition, Content-Description , x-auth-token, token, recaptcha-token, x-prototype-version, x-requested-with
+  exposeheaders: Content-Length, X-JSON, Bedrock-Requestid
+
+
+  
