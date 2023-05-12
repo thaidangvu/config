@@ -1,1 +1,8 @@
 property1: value for property1
+
+logging:
+  level:
+    root: info
+    nbc: debug
+  pattern:
+    dateformat: "HH:mm:ss.SSS"
