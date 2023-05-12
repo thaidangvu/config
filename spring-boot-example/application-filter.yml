@@ -1,5 +1,5 @@
 filterA:
-  uriPattern: "/v3/endpoint2"
+  uriPattern: "/v3/endpoint1"
 
 
 cors:
